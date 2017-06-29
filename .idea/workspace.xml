@@ -30,16 +30,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+            <state relative-caret-position="-162">
+              <caret line="187" column="23" lean-forward="false" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
               <folding>
                 <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#6968#6974#0" expanded="true" />
+                <element signature="e#6964#6970#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ic-stb-screens.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/other/ic-stb-screens.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ic-EI-cloud-brain-hp.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/other/ic-EI-cloud-brain-hp.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -78,20 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMG_9294-750x563.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/blog/IMG_9294-750x563.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_quality-750x508.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/blog/post_quality-750x508.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post_tv_connect-750x508.jpeg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/blog/post_tv_connect-750x508.jpeg">
           <provider selected="true" editor-type-id="images">
@@ -114,6 +112,7 @@
       <find>sche</find>
       <find>200</find>
       <find>CHEDULE A MEETIN</find>
+      <find>todo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -351,12 +350,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498572605447</updated>
-      <workItem from="1498572606575" duration="19107000" />
+      <workItem from="1498572606575" duration="19547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19107000" />
+    <option name="totallyTimeSpent" value="19547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -407,11 +406,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/logo/comigo-logo-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/other/ic-stb-screens.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -514,16 +508,24 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/other/ic-EI-cloud-brain-hp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/other/ic-stb-screens.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="167" column="13" lean-forward="true" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+        <state relative-caret-position="-162">
+          <caret line="187" column="23" lean-forward="false" selection-start-line="187" selection-start-column="23" selection-end-line="187" selection-end-column="23" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#6968#6974#0" expanded="true" />
+            <element signature="e#6964#6970#0" expanded="true" />
           </folding>
         </state>
       </provider>
