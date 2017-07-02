@@ -1,16 +1,53 @@
-@media all and (max-device-width: 700px) ,(max-width: 700px )  {
+@media all and (max-device-width: 700px) ,(max-width: 700px ) {
     nav {
-        display : none ;
+        display: none;
     }
 
+}
+
+a {
+    text-decoration: none;
 }
 
 footer {
     background-color: #1e2024;
 }
 
-.sub-footer{
+header a {
+
+    color: #3d3d3d;
+}
+
+header a:hover , header a:focus {
+    color: #f14848;
+}
+
+header li li a:hover, header li li a:focus {
+    color: white;
+    background-color: #f14848;
+}
+
+.sub-footer {
     background-color: #151515;
+}
+
+footer a{
+    color : white;
+}
+footer ul ul a{
+    color: #7a7a7a
+}
+
+footer ul ul a:hover, footer ul ul a:focus{
+    color: #f14848;
+}
+
+.sub-footer a{
+    color: #636363 ;
+}
+
+.sub-footer a:hover, .sub-footer a:focus {
+    color: white;
 }
 
 
