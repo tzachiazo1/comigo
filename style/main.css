@@ -17,16 +17,16 @@ footer {
     background-color: #1e2024;
 }
 
-header a {
+nav a {
     color: #3d3d3d;
-}
-
-header a:hover, header a:focus {
-    color: #f14848;
     outline: 0;
 }
 
-header li li a:hover, header li li a:focus {
+nav > ul > li > a:hover, nav > ul > li > a:focus {
+    color: #f14848;
+}
+
+nav ul ul a:hover, nav ul ul a:focus {
     color: white;
     background-color: #f14848;
 }
@@ -35,6 +35,9 @@ header li li a:hover, header li li a:focus {
     background-color: #151515;
 }
 
+ul{
+    list-style-type:none;
+}
 footer a {
     color: white;
 }
