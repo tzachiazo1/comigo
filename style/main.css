@@ -18,12 +18,12 @@ footer {
 }
 
 header a {
-
     color: #3d3d3d;
 }
 
 header a:hover, header a:focus {
     color: #f14848;
+    outline: 0;
 }
 
 header li li a:hover, header li li a:focus {
