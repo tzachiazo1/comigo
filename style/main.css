@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@font-face {
+    font-family: 'MyWebFont';
+    url('../assets/fonts/icommon/fonts/icomoon.svg') format('svg');
+}
+
+/*url('webfont.svg#svgFontName') format('svg');*/
+
 @media all and (max-device-width: 700px) ,(max-width: 700px ) {
     nav {
         display: none;
     }
 
 }
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -72,4 +80,92 @@ footer ul ul a:hover, footer ul ul a:focus {
     color: #f14848;;
 }
 
+/*SECTIONS*/
+section {
+    height: 400px;
+    width: auto;
+    color: #3d3d3d;
+}
 
+.blocked_element{
+    display: block;
+}
+
+/*First Section*/
+.schedule_a_demo_section {
+    background: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
+    background-size: contain, auto;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2.7em;
+    text-align: center;
+}
+
+/*Second section*/
+
+.learn_more_section{
+    text-align: center;
+    font-size: 2.6em;
+    font-family: Texta,ProximaNova,Tahoma,sans-serif!important;
+}
+.learn_more_subtitle{
+    font-size: 1em;
+    color: #3d3d3d;
+    font-family: ProximaNova,Texta,Tahoma,sans-serif;
+}
+
+/*Third Section*/
+.services_section{
+    height: 3000px;
+}
+
+/*forth Section*/
+.enhance_service_section{
+    background-image: url("../assets/other/home-tv-service-bg1.png");
+    padding-left: 15%;
+    color: white;
+}
+
+/*fifth Section*/
+.deploy_section{
+    background-image: url("../assets/other/home-tv-service-bg2.png");
+    padding-left: 15%;
+    height: 600px;
+}
+
+/*sixth Section*/
+.whos_on_section{
+    height: 500px;
+}
+
+.whos_on_title{
+    width: 50%;
+    padding-left: 30%;
+}
+
+.whos_on_img{
+
+}
+
+/*seventh Section*/
+.learn_more_section{
+    height: 2500px;
+}
+
+.learn_more_download{
+    background-color: red;
+}
+
+.learn_more_demo{
+    background-image: url("../assets/other/screen_demo.jpg");
+    background-repeat: no-repeat;
+}
+
+.learn_more_meeting{
+    background-image: url("../assets/other/screen_demo.jpg");
+    background-repeat: no-repeat;
+}
+
+.learn_more_social{
+    font-family: MyWebFont , Fallback, sans-serif;;
+}
