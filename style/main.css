@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'MyWebFont';
-    url('../assets/fonts/icommon/fonts/icomoon.svg') format('svg');
+url('../assets/fonts/icommon/fonts/icomoon.svg') format('svg');
 }
 
 /*url('webfont.svg#svgFontName') format('svg');*/
@@ -15,10 +15,13 @@
 }
 
 html {
-    box-sizing: border-box
+    box-sizing: border-box; /*now box size includes the padding and border*/
+    font-size: 100%;
+
 }
+
 *, *:before, *:after {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 body {
@@ -33,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-.reset_list{
+.reset_list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -95,157 +98,192 @@ footer ul ul a:hover, footer ul ul a:focus {
 
 /*SECTIONS*/
 section {
-    height: 400px;
+    overflow: hidden;
+    height: 600px;
     width: auto;
     color: #3d3d3d;
 }
 
-.blocked_element{
+.blocked_element {
     display: block;
+}
+
+.rounded_button {
+    border-radius: 2em;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.margin_less {
+    margin: 0px;
 }
 
 /*First Section*/
 .schedule_a_demo_section {
+
     background: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
     background-size: contain, auto;
     background-repeat: no-repeat;
     color: white;
-    font-size: 2.7em;
+    font-size: 0.8rem;
     text-align: center;
-    padding: 5%;
+    padding: 12%;
+}
+
+.schedule_a_demo_header {
+    font-size: 4.5rem;
+    margin-bottom: 50px;
 }
 
 /*Second section*/
 
-.why_comigo_section{
-    text-align: center;
-    font-size: 2.6em;
+.why_comigo_section {
     height: 400px;
-    font-family: Texta,ProximaNova,Tahoma,sans-serif!important;
+    text-align: center;
+    font-size: 1.25em;
+    /*font-family: Texta, ProximaNova, Tahoma, sans-serif;*/
+    padding: 5%;
 }
-.why_comigo_subtitle{
+
+.why_comigo_header {
+    margin-bottom: 20px;
+    font-size: 3.9rem;
+}
+
+.why_comigo_subtitle {
+    margin-bottom: 30px;
     font-size: 1em;
     color: #3d3d3d;
-    font-family: ProximaNova,Texta,Tahoma,sans-serif;
+    /*font-family: ProximaNova, Texta, Tahoma, sans-serif;*/
 }
 
-.why_comigo_block{
-    width: 600px;
+.why_comigo_button{
+    font-size: 0.8rem;
 }
 
-.centered_block{
+.why_comigo_block {
+    width: 450px;
+}
+
+.centered_block {
     margin: 0 auto;
 }
 
 /*Third Section*/
-.services_section{
+.services_section {
     height: 3000px;
     background-color: #7a7a7a;
 }
 
 /*forth Section*/
-.enhance_service_section{
+.enhance_service_section {
     background-image: url("../assets/other/home-tv-service-bg1.png");
-    background-size : contain;
+    background-size: contain;
     padding-left: 15%;
+    padding-top: 2%;
     color: white;
 }
 
+
+.enhance_title {
+    font-size: 2em;
+}
+
 /*fifth Section*/
-.deploy_section{
+.deploy_section {
+
     background-image: url("../assets/other/home-tv-service-bg2.png");
-    background-size : contain;
-    padding-left: 15%;
-    height: 600px;
+    background-size: contain;
+    padding: 4%;
+    height: 700px;
 }
 
 /*sixth Section*/
-.whos_on_section{
+.whos_on_section {
     height: 500px;
 }
 
-.whos_on_title{
+.whos_on_title {
     width: 50%;
     padding-left: 30%;
 }
 
-.whos_on_img{
+.whos_on_img {
 
 }
 
 /*seventh Section*/
-.learn_more_section{
+.learn_more_section {
     height: 2500px;
 }
 
-.learn_more_download{
+.learn_more_download {
     background-color: red;
 }
 
-.learn_more_demo{
+.learn_more_demo {
     background-image: url("../assets/other/screen_demo.jpg");
     background-repeat: no-repeat;
 }
 
-.learn_more_meeting{
+.learn_more_meeting {
     background-image: url("../assets/other/screen_demo.jpg");
     background-repeat: no-repeat;
 }
 
-.learn_more_social{
-    font-family: MyWebFont , Fallback, sans-serif;;
+.learn_more_social {
+    font-family: MyWebFont, Fallback, sans-serif;;
 }
 
 /*egith Section*/
-.blog_section{
+.blog_section {
     color: white;
     height: 2500px;
 }
 
-.blog_u_list{
+.blog_u_list {
 
 }
 
-.blog_header{
+.blog_header {
     width: 200px;
     height: 400px;
     background-color: #f14848;
 }
 
-.blog_list{
+.blog_list {
     width: 200px;
     height: 400px;
     background-color: #F00;
 }
 
-.blog_link{
+.blog_link {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.link1{
+.link1 {
     background-image: url("../assets/blog/ibc_post_EI-750x508.png");
     background-position: 50% 20%;
 }
 
-.link2{
+.link2 {
     background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
     background-position: 50% 20%;
 }
 
-.link3{
+.link3 {
     background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
     background-position: 50% 20%;
 }
 
-
-.link4{
+.link4 {
     background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
     background-position: 50% 20%;
 }
 
-.link5{
+.link5 {
     background-image: url("../assets/blog/post_quality-750x508.jpeg");
     background-position: 50% 20%;
 }
