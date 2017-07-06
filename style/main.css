@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-@font-face {
-    font-family: 'MyWebFont';
-url('../assets/fonts/icommon/fonts/icomoon.svg') format('svg');
-}
-
 /*url('webfont.svg#svgFontName') format('svg');*/
 
 @media all and (max-device-width: 700px) ,(max-width: 700px ) {
@@ -26,6 +21,7 @@ html {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
 
 li {
@@ -47,12 +43,26 @@ footer {
 }
 
 nav a {
+    text-align: center;
     color: #3d3d3d;
     outline: 0;
 }
 
+/*First level items  */
 nav > ul > li > a:hover, nav > ul > li > a:focus {
     color: #f14848;
+}
+
+/* second and third level items*/
+nav ul ul li {
+    border: solid 2px green;
+    width: 200px;
+    height: 100px;
+}
+
+nav ul ul a {
+    display: block;
+    height: 100%;
 }
 
 nav ul ul a:hover, nav ul ul a:focus {
@@ -111,7 +121,9 @@ section {
 .rounded_button {
     border-radius: 2em;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 0px 40px;
+    line-height: 3.5em;
+    letter-spacing: 0.2em;
 }
 
 .margin_less {
@@ -120,19 +132,21 @@ section {
 
 /*First Section*/
 .schedule_a_demo_section {
-
+    height: 42.5vw;
     background: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
     background-size: contain, auto;
     background-repeat: no-repeat;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.125rem;
     text-align: center;
-    padding: 12%;
+    padding: 12% 22%;
+
 }
 
 .schedule_a_demo_header {
     font-size: 4.5rem;
     margin-bottom: 50px;
+    font-weight: normal;
 }
 
 /*Second section*/
@@ -157,7 +171,7 @@ section {
     /*font-family: ProximaNova, Texta, Tahoma, sans-serif;*/
 }
 
-.why_comigo_button{
+.why_comigo_button {
     font-size: 0.8rem;
 }
 
@@ -175,46 +189,86 @@ section {
     background-color: #7a7a7a;
 }
 
+.services_sections {
+    width: 100%;
+}
+
 /*forth Section*/
 .enhance_service_section {
+    display: inline-block;
     background-image: url("../assets/other/home-tv-service-bg1.png");
     background-size: contain;
     padding-left: 15%;
     padding-top: 2%;
     color: white;
+    font-size: 0.9rem;
+    height: 41.75365344vw;
+    width: 50%;
 }
 
-
 .enhance_title {
-    font-size: 2em;
+    font-size: 2.25rem;
+}
+
+.enhance_button {
+    font-size: 0.7rem;
 }
 
 /*fifth Section*/
 .deploy_section {
-
+    display: inline-block;
+    font-size: 0.9rem;
     background-image: url("../assets/other/home-tv-service-bg2.png");
     background-size: contain;
     padding: 4%;
-    height: 700px;
+    height: 41.75365344vw;
+    width: 50%;
+}
+
+.deploy_header {
+    font-size: 2.25rem;
+}
+
+.deploy_button {
+    font-size: 0.7rem;
 }
 
 /*sixth Section*/
 .whos_on_section {
-    height: 500px;
+    height: 600px;
+    padding: 3% 0;
+    vertical-align: top;
+}
+
+.whos_on_text_content {
+    width: 40%;
+    padding: 0 10%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .whos_on_title {
-    width: 50%;
-    padding-left: 30%;
+    font-size: 3.25rem;
+    margin: 0;
+}
+
+.whos_on_sub_title {
+    font-size: 0.9rem;
+
+}
+
+.whos_on_button {
+    font-size: 0.7rem;
 }
 
 .whos_on_img {
-
+    display: inline-block;
 }
 
 /*seventh Section*/
 .learn_more_section {
-    height: 2500px;
+    height: 1000px;
+    background-color: #ffff00;
 }
 
 .learn_more_download {
@@ -232,11 +286,11 @@ section {
 }
 
 .learn_more_social {
-    font-family: MyWebFont, Fallback, sans-serif;;
 }
 
 /*egith Section*/
 .blog_section {
+    background-color: #353535;
     color: white;
     height: 2500px;
 }
