@@ -152,23 +152,24 @@ section {
 /*Second section*/
 
 .why_comigo_section {
-    height: 400px;
+    height: 29.16666667vw;
     text-align: center;
     font-size: 1.25em;
     /*font-family: Texta, ProximaNova, Tahoma, sans-serif;*/
-    padding: 5%;
+    padding: 7%;
 }
 
 .why_comigo_header {
     margin-bottom: 20px;
     font-size: 3.9rem;
+    font-weight: inherit;
 }
 
 .why_comigo_subtitle {
     margin-bottom: 30px;
     font-size: 1em;
     color: #3d3d3d;
-    /*font-family: ProximaNova, Texta, Tahoma, sans-serif;*/
+    line-height: 1.4em;
 }
 
 .why_comigo_button {
@@ -292,52 +293,61 @@ section {
 .blog_section {
     background-color: #353535;
     color: white;
-    height: 2500px;
+    height: 36.11111111vw;
+    vertical-align: top;
 }
 
 .blog_u_list {
-
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 83.3333335%;
 }
 
 .blog_header {
-    width: 200px;
-    height: 400px;
+    display: inline-block;
+    width: 16.6666667%;
+    height: 100%;
+    vertical-align: top;
     background-color: #f14848;
 }
 
-.blog_list {
-    width: 200px;
-    height: 400px;
-    background-color: #F00;
+.blog_item {
+    vertical-align: top;
+    width: 16.6666667vw;
+    display: inline-block;
+    height: 100%;
 }
 
 .blog_link {
+
     display: block;
     width: 100%;
     height: 100%;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .link1 {
     background-image: url("../assets/blog/ibc_post_EI-750x508.png");
-    background-position: 50% 20%;
 }
 
 .link2 {
     background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
-    background-position: 50% 20%;
+
 }
 
 .link3 {
     background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
-    background-position: 50% 20%;
 }
 
 .link4 {
     background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
-    background-position: 50% 20%;
 }
 
 .link5 {
     background-image: url("../assets/blog/post_quality-750x508.jpeg");
-    background-position: 50% 20%;
 }
