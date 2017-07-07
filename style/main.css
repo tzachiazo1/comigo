@@ -43,10 +43,21 @@ footer {
 }
 
 
+.header_anchor{
+    position: relative;
+    height: 66px;
+    width: 100%;
+    top:0;
+}
 .main_header{
     padding: 0px 20px;
     height: 66px;
-    position: relative;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #fff;
+    z-index: 1;
+
 }
 
 .comigo_logo_header{
