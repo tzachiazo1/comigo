@@ -44,15 +44,26 @@ footer {
 
 
 .main_header{
+    padding: 0px 20px;
     height: 66px;
     position: relative;
 }
+
+.comigo_logo_header{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+
+
 
 /****** navigation ******/
 
 .main_nav{
     position: absolute;
     right: 0;
+    margin-right: 20px;
     font-size: 1.125em;
 }
 
