@@ -42,22 +42,58 @@ footer {
     background-color: #1e2024;
 }
 
+
+.main_header{
+    height: 66px;
+    position: relative;
+}
+
+/****** navigation ******/
+
+.main_nav{
+    position: absolute;
+    right: 0;
+    font-size: 1.125em;
+}
+
+nav > u{
+    display: inline-block;
+}
+
+header > nav{
+    display: inline-block;
+}
 nav a {
     text-align: center;
     color: #3d3d3d;
     outline: 0;
+    line-height: 66px;
+    padding: 0.6em;
 }
 
+
 /*First level items  */
+nav > ul > li{
+    display: inline-block;
+
+}
+
+.main_nav > ul{
+    margin: 0;
+}
+
 nav > ul > li > a:hover, nav > ul > li > a:focus {
     color: #f14848;
 }
 
 /* second and third level items*/
 nav ul ul li {
+    display: none;
     border: solid 2px green;
     width: 200px;
     height: 100px;
+    visibility: hidden;
+
 }
 
 nav ul ul a {
@@ -69,6 +105,8 @@ nav ul ul a:hover, nav ul ul a:focus {
     color: white;
     background-color: #f14848;
 }
+
+/*navigation*/
 
 .sub-footer {
     background-color: #151515;
