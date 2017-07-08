@@ -38,9 +38,6 @@ a {
     padding: 0;
 }
 
-
-
-
 .header_anchor{
     position: relative;
     height: 66px;
@@ -248,7 +245,6 @@ section {
 .enhance_section_content {
     display: inline-block;
     text-align: left;
-
 }
 
 .enhance_title {
@@ -482,7 +478,7 @@ footer {
     width: 66.6666%;
     height: 400px ;
     margin: 0;
-    margin-top: 68px;
+    padding-top: 68px;
     margin-left: 223px;
 }
 
