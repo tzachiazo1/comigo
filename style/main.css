@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
 
@@ -38,9 +38,7 @@ a {
     padding: 0;
 }
 
-footer {
-    background-color: #1e2024;
-}
+
 
 
 .header_anchor{
@@ -138,23 +136,7 @@ footer a {
     color: white;
 }
 
-footer ul ul a {
-    color: #7a7a7a;
-    outline: 0;
-}
 
-footer ul ul a:hover, footer ul ul a:focus {
-    color: #f14848;
-}
-
-.sub-footer a {
-    outline: 0;
-    color: #636363;
-}
-
-.sub-footer a:hover, .sub-footer a:focus {
-    color: white;
-}
 
 .red_button {
     background-color: #f14848;
@@ -227,8 +209,9 @@ section {
 
 .why_comigo_subtitle {
     margin-bottom: 30px;
-    font-size: 1em;
+    font-size: 1.125em;
     color: #3d3d3d;
+    font-weight: 100;
     line-height: 1.4em;
 }
 
@@ -455,4 +438,108 @@ section {
 
 .link5 {
     background-image: url("../assets/blog/post_quality-750x508.jpeg");
+}
+
+/*****  FOOTER *****/
+
+
+footer {
+    background-color: #1e2024;
+    height: 437px;
+    position: relative;
+
+
+
+}
+
+.footer_nav_list{
+
+    vertical-align: top;
+}
+
+.footer_nav_list  li{
+    display: inline-block;
+    padding: 20px 0px;
+    display: block;
+}
+
+.footer_nav_list  ul{
+    display: inline-block;
+}
+
+.footer_nav_list ul li, .footer_nav_list ul li a  {
+    color: #7a7a7a;
+    outline: 0;
+    padding:0;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.footer_nav_list{
+    font-size: 1.125rem;
+    padding: 0;
+    display: inline-block;
+    width: 66.6666%;
+    height: 400px ;
+    margin: 0;
+    margin-top: 68px;
+    margin-left: 223px;
+}
+
+footer ul ul a:hover, footer ul ul a:focus {
+    color: #f14848;
+}
+
+.footer_nav_list ul{
+    padding: 0;
+    display: block;
+}
+
+
+/*.sub-footer a:hover, .sub-footer a:focus {*/
+    /*color: white;*/
+/*}*/
+
+
+.footer_section1{
+    width: 33.333%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer_section2{
+    width: 33.333%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer_section3{
+    width: 33.333%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer_image_logo{
+    margin-top: 93px;
+}
+.sub-footer{
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+
+}
+.sub-footer a {
+    outline: 0;
+    color: #636363;
+}
+
+.footer_social_list{
+    display: inline-block;
+}
+.footer_social_list li{
+    display: inline-block;
+
 }

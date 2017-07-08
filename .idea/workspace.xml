@@ -21,12 +21,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="526">
+              <caret line="275" column="37" lean-forward="false" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="37" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#5913#5920#0" expanded="true" />
-                <element signature="e#9567#9573#0" expanded="true" />
+                <element signature="e#6112#6119#0" expanded="true" />
+                <element signature="e#9991#9997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +35,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="669">
+              <caret line="525" column="18" lean-forward="false" selection-start-line="525" selection-start-column="18" selection-end-line="525" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -82,14 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stb</find>
-      <find>sche</find>
-      <find>200</find>
-      <find>CHEDULE A MEETIN</find>
-      <find>todo</find>
-      <find>footer</find>
-      <find>deploy</find>
-      <find>your con</find>
       <find>hover</find>
       <find>our</find>
       <find>list-style</find>
@@ -110,6 +102,16 @@
       <find>enha</find>
       <find>blog</find>
       <find>enhan</find>
+      <find>footer</find>
+      <find>header_anchor</find>
+      <find>footer ul ul</find>
+      <find>40px</find>
+      <find>.footer_nav_list ul</find>
+      <find>footer_nav_list ul</find>
+      <find>ul</find>
+      <find>margin-top</find>
+      <find>img</find>
+      <find>footer_nav_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -357,12 +359,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498572605447</updated>
       <workItem from="1498572606575" duration="20765000" />
-      <workItem from="1498979226391" duration="54436000" />
+      <workItem from="1498979226391" duration="62987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75201000" />
+    <option name="totallyTimeSpent" value="83752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -461,8 +463,8 @@
           <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5913#5920#0" expanded="true" />
-            <element signature="e#9567#9573#0" expanded="true" />
+            <element signature="e#6112#6119#0" expanded="true" />
+            <element signature="e#9991#9997#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,20 +612,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="526">
+          <caret line="275" column="37" lean-forward="false" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="37" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#5913#5920#0" expanded="true" />
-            <element signature="e#9567#9573#0" expanded="true" />
+            <element signature="e#6112#6119#0" expanded="true" />
+            <element signature="e#9991#9997#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="669">
+          <caret line="525" column="18" lean-forward="false" selection-start-line="525" selection-start-column="18" selection-end-line="525" selection-end-column="18" />
           <folding />
         </state>
       </provider>
