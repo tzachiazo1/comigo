@@ -528,7 +528,8 @@ footer ul ul a:hover, footer ul ul a:focus {
 .sub-footer{
     position: absolute;
     bottom: 0;
-    height: 30px;
+    height: 66px;
+    width: 100%;
 
 }
 .sub-footer a {
