@@ -302,14 +302,15 @@ section {
 
 /*sixth Section*/
 .whos_on_section {
-    height: 600px;
+    height: 49.02777778vw;
     padding: 3% 0;
     vertical-align: top;
+    position: relative;
 }
 
 .whos_on_text_content {
     width: 40%;
-    padding: 0 10%;
+    padding: 5% 10%;
     display: inline-block;
     vertical-align: top;
 }
@@ -317,19 +318,25 @@ section {
 .whos_on_title {
     font-size: 3.25rem;
     margin: 0;
+    font-weight: 300;
+    vertical-align: middle;
 }
 
 .whos_on_sub_title {
-    font-size: 0.9rem;
+    font-size: 1.125rem;
 
 }
 
 .whos_on_button {
-    font-size: 0.7rem;
+    font-size: 1.12rem;
 }
 
 .whos_on_img {
+    position: absolute;
+    right: -40px;
     display: inline-block;
+    width: 60%;
+    height: auto;
 }
 
 /*seventh Section*/
