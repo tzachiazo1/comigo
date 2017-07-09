@@ -222,8 +222,74 @@ section {
 
 /*Third Section*/
 .services_section {
-    height: 3000px;
-    background-color: #7a7a7a;
+    height: 40vw;
+    position: relative;
+    font-weight: 300;
+    color: white;
+}
+
+.service_headers{
+    width: 33.3333%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #515151;
+    height: 100%;
+    font-size: 1.5rem;
+    padding-top: 8vw ;
+    padding-right: 7.5em;
+    padding-left: 7.5em;
+    font-weight: 100;
+}
+
+.service_main_header{
+    font-weight: 300;
+    margin: 0;
+}
+
+.service_figure{
+    position: absolute;
+    top: 8vw;
+    right: 12%;
+    display: none;
+    text-align: center;
+}
+
+.feature_title{
+    color: #969696;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.service_list_container li:last-of-type figure{
+    display: block;
+}
+
+.service_list_container figcaption{
+    font-weight: 100;
+    font-size: 1.57rem;
+    width: 17em;
+    padding-bottom: 1em;
+}
+
+.service_list_container li:first-of-type h3{
+    margin-top: 0;
+}
+
+.services_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    vertical-align: top;
+    background-color: #515151;
+    height: 100%;
+}
+
+
+.service_list_container{
+    width: 64.66666%;
+    display: inline-block;
+    padding-top: 8vw ;
 }
 
 /*forth Section*/
@@ -548,15 +614,27 @@ footer ul ul a:hover, footer ul ul a:focus {
     margin-top: 93px;
 }
 .sub-footer{
+    padding-left: 223px;
     position: absolute;
     bottom: 0;
     height: 66px;
     width: 100%;
-
+    font-size: 0.87rem  ;
+    color: #636363;
+    text-align: justify;
+    vertical-align: middle;
 }
 .sub-footer a {
     outline: 0;
     color: #636363;
+}
+
+.sub_footer_token{
+    padding: 0 1.5em;
+}
+
+.sub_footer_token_first{
+    padding-right: 1.5em;
 }
 
 .footer_social_list{
@@ -564,5 +642,9 @@ footer ul ul a:hover, footer ul ul a:focus {
 }
 .footer_social_list li{
     display: inline-block;
+
+}
+
+.sub_footer_component{
 
 }
