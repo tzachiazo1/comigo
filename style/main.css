@@ -260,7 +260,7 @@ section {
     font-weight: 300;
 }
 
-.service_list_container li:last-of-type figure{
+.default_figure{
     display: block;
 }
 
@@ -290,6 +290,35 @@ section {
     width: 64.66666%;
     display: inline-block;
     padding-top: 8vw ;
+}
+
+
+.feature_title:hover {
+    color: #f14848;
+}
+
+.feature_title:hover ~ .feature_title{
+    display: none;
+}
+
+.feature_title:hover + .service_figure{
+    display: inline-block;
+}
+
+.feature_headers_container{
+    width: 10em;
+}
+.service_list_container li{
+    display: inline-block;
+}
+
+li:hover ~ li .default_figure{
+    display: none;
+}
+
+
+.feature_title{
+    display: inline-block;
 }
 
 /*forth Section*/
