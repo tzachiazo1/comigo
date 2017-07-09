@@ -7,6 +7,7 @@
         display: none;
     }
 
+
 }
 
 html {
@@ -22,6 +23,7 @@ html {
 body {
     font-family: 'Raleway', 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    padding-top: 66px;
 }
 
 li {
@@ -38,12 +40,6 @@ a {
     padding: 0;
 }
 
-.header_anchor{
-    position: relative;
-    height: 66px;
-    width: 100%;
-    top:0;
-}
 .main_header{
     padding: 0px 20px;
     height: 66px;
@@ -245,15 +241,22 @@ section {
 .enhance_section_content {
     display: inline-block;
     text-align: left;
+    width: 50%;
+}
+
+.enhance_sub_title{
+    font-size: 1.4rem;
 }
 
 .enhance_title {
-    font-size: 2.25rem;
+    font-size: 3.5rem;
+    font-weight: 300;
     text-align: left;
+    width: 8em;
 }
 
 .enhance_button {
-    font-size: 0.7rem;
+    font-size: 1.12rem;
 }
 
 .enhance_img {
