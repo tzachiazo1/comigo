@@ -340,7 +340,7 @@ section {
 .service_main_header{
     font-weight: 300;
     margin: 0;
-    text-align: right;
+    text-align: left;
 }
 
 .service_figure{
