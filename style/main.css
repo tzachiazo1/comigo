@@ -128,8 +128,31 @@ a {
 
 }
 
+.insight_menu {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 207px;
+    z-index: 1;
+    padding: 0;
+
+}
+
+
+.insights_item:hover .insight_menu {
+    display: inline-block;
+}
+
 .our_solution_item:hover .our_solution_menu {
     display: inline-block;
+}
+
+.insight_menu > li{
+    width: 33.333%;
+    height: 207px;
+    background-color: white;
 }
 
 .our_solution_menu > li{
@@ -152,6 +175,16 @@ a {
 
 }
 
+.two_line_link{
+    padding: 0;
+}
+.two_line_link .span_two_line{
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+
+}
 /*Sub menu*/
 
 .sub_menu_2_items{
