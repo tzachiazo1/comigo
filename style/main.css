@@ -322,16 +322,16 @@ section {
     position: relative;
     font-weight: 300;
     color: white;
+    background-color: rgba(96,96,96,0.8);
 }
 
 .service_headers{
     width: 33.3333%;
     display: inline-block;
     vertical-align: top;
-    background-color: #515151;
     height: 100%;
     font-size: 1.5rem;
-    padding-top: 8vw ;
+    padding-top: 4% ;
     padding-right: 7.5em;
     padding-left: 7.5em;
     font-weight: 100;
@@ -345,9 +345,9 @@ section {
 
 .service_figure{
     position: absolute;
-    top: 8vw;
+    top: 8%;
     right: 12%;
-    display: none;
+    /*display: none;*/
     text-align: center;
 }
 
@@ -378,15 +378,14 @@ section {
     left: 0;
     z-index: -1;
     vertical-align: top;
-    background-color: #515151;
-    height: 100%;
 }
 
 
 .service_list_container{
     width: 64.66666%;
     display: inline-block;
-    padding-top: 8vw ;
+    padding-top: 4% ;
+    margin-top: 0;
 }
 
 
@@ -398,7 +397,11 @@ section {
     display: none;
 }
 
-.feature_title:hover + .service_figure{
+.feature_content{
+    display: none;
+}
+
+.feature_title:hover + .feature_content{
     display: inline-block;
 }
 
