@@ -2,13 +2,11 @@
 
 /*url('webfont.svg#svgFontName') format('svg');*/
 
-@media all and (max-device-width: 700px) ,(max-width: 700px ) {
-    nav {
-        display: none;
-    }
-
-
-}
+/*@media all and (max-device-width: 700px) ,(max-width: 700px ) {*/
+    /*nav {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
 html {
     box-sizing: border-box; /*now box size includes the padding and border*/
@@ -41,7 +39,7 @@ a {
 }
 
 .main_header{
-    padding: 0px 20px;
+    padding: 0px 0px;
     height: 66px;
     width: 100%;
     position: fixed;
@@ -61,156 +59,202 @@ a {
 }
 
 
+@media (min-width: 701px) {
+    .main_nav{
+        font-size: 1.125em;
+        display: inline-block;
+    }
 
+    .menu_ic{
+        display: none;
+    }
+
+    .main_nav > u{
+        display: inline-block;
+    }
+
+    .main_nav a {
+        text-align: center;
+        color: #3d3d3d;
+        outline: 0;
+        line-height: 66px;
+        padding: 0.6em;
+    }
+
+
+    /*First level items  */
+    .main_nav > ul > li{
+        display: inline-block;
+    }
+
+    .main_nav > ul{
+        margin: 0;
+    }
+
+    .main_nav > ul > li > a:hover, .main_nav > ul > li > a:focus {
+        color: #f14848;
+    }
+
+    /* second and third level items*/
+    .main_nav ul ul li {
+        display: inline-block;
+    }
+
+
+
+    .main_nav ul ul a:hover, nav ul ul a:focus {
+        color: white;
+        background-color: #f14848;
+    }
+
+    .main_nav ul ul a {
+        line-height: 3;
+        font-size: 3.125rem;
+        font-weight: 100;
+    }
+
+    /*@@@@*/
+
+
+    .our_solution_menu {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 207px;
+        z-index: 1;
+        padding: 0;
+
+    }
+
+    .insight_menu {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 207px;
+        z-index: 1;
+        padding: 0;
+
+    }
+
+
+    .insights_item:hover .insight_menu {
+        display: inline-block;
+    }
+
+    .our_solution_item:hover .our_solution_menu {
+        display: inline-block;
+    }
+
+    .insight_menu > li{
+        width: 33.333%;
+        height: 207px;
+        background-color: white;
+    }
+
+    .our_solution_menu > li{
+        width: 33.333%;
+        height: 207px;
+        background-color: white;
+    }
+
+    .main_nav ul ul a {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        vertical-align: bottom;
+    }
+
+
+    .our_solution_menu > li > a{
+        line-height: 100%;
+        vertical-align: middle;
+
+    }
+
+    .two_line_link{
+        padding: 0;
+    }
+    .two_line_link .span_two_line{
+        line-height: 1;
+        display: inline-block;
+        vertical-align: middle;
+        margin: auto;
+
+    }
+    /*Sub menu*/
+
+    .sub_menu_2_items{
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 207px;
+        z-index: 1;
+        padding: 0;
+    }
+
+    .sub_menu_2_items > li{
+        width: 50%;
+        height: 207px;
+        background-color: white;
+    }
+
+    .ei_cloud_item:hover .sub_menu_ei_cloud {
+        display: inline-block;
+    }
+
+    .ei_middleware_item:hover .sub_menu_ei_middleware {
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .main_nav{
+        display: none;
+        width: 100%;
+        background-color: #fff;
+
+        position: absolute;
+        top: 100%;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+
+    .main_nav ul ul li{
+        text-decoration: dashed;
+    }
+
+    .main_nav ul ul li::before{
+        content: "- ";
+    }
+
+    #menu_cb:checked ~ .main_nav{
+        display: block;
+    }
+
+    .menu_ic{
+        font-size: 3rem;
+        line-height: 66px;
+    }
+
+    .main_nav a{
+        line-height: 2rem;
+        color: #616161;
+    }
+
+    .main_nav a:hover{
+        color: #f14848;
+    }
+    
+}
 /****** navigation ******/
 
-.main_nav{
-    font-size: 1.125em;
-    display: inline-block;
-}
-
-.main_nav > u{
-    display: inline-block;
-}
-
-.main_nav a {
-    text-align: center;
-    color: #3d3d3d;
-    outline: 0;
-    line-height: 66px;
-    padding: 0.6em;
-}
-
-
-/*First level items  */
-.main_nav > ul > li{
-    display: inline-block;
-}
-
-.main_nav > ul{
-    margin: 0;
-}
-
-.main_nav > ul > li > a:hover, .main_nav > ul > li > a:focus {
-    color: #f14848;
-}
-
-/* second and third level items*/
-.main_nav ul ul li {
-    display: inline-block;
-}
-
-
-
-.main_nav ul ul a:hover, nav ul ul a:focus {
-    color: white;
-    background-color: #f14848;
-}
-
-.main_nav ul ul a {
-    line-height: 3;
-    font-size: 3.125rem;
-    font-weight: 100;
-}
-
-/*@@@@*/
-
-
-.our_solution_menu {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 207px;
-    z-index: 1;
-    padding: 0;
-
-}
-
-.insight_menu {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 207px;
-    z-index: 1;
-    padding: 0;
-
-}
-
-
-.insights_item:hover .insight_menu {
-    display: inline-block;
-}
-
-.our_solution_item:hover .our_solution_menu {
-    display: inline-block;
-}
-
-.insight_menu > li{
-    width: 33.333%;
-    height: 207px;
-    background-color: white;
-}
-
-.our_solution_menu > li{
-    width: 33.333%;
-    height: 207px;
-    background-color: white;
-}
-
-.main_nav ul ul a {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    vertical-align: bottom;
-}
-
-
-.our_solution_menu > li > a{
-    line-height: 100%;
-    vertical-align: middle;
-
-}
-
-.two_line_link{
-    padding: 0;
-}
-.two_line_link .span_two_line{
-    line-height: 1;
-    display: inline-block;
-    vertical-align: middle;
-    margin: auto;
-
-}
-/*Sub menu*/
-
-.sub_menu_2_items{
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 207px;
-    z-index: 1;
-    padding: 0;
-}
-
-.sub_menu_2_items > li{
-    width: 50%;
-    height: 207px;
-    background-color: white;
-}
-
-.ei_cloud_item:hover .sub_menu_ei_cloud {
-    display: inline-block;
-}
-
-.ei_middleware_item:hover .sub_menu_ei_middleware {
-    display: inline-block;
-}
 
 
 .gone{
@@ -542,7 +586,7 @@ li:hover ~ li .default_figure{
 
 /*seventh Section*/
 .learn_more_section {
-    height: 1000px;
+    height: 40.02777778vw;
     background-color: #ffff00;
 }
 
