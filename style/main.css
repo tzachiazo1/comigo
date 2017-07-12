@@ -238,6 +238,9 @@ a {
         display: block;
     }
 
+    #menu_cb:checked ~ .menu_ic:before{
+        content: "\ea0f"
+    }
     .menu_ic{
         font-size: 3rem;
         line-height: 66px;
