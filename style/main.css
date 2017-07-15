@@ -637,6 +637,25 @@ li:hover ~ li .default_figure{
     position: relative;
 }
 
+.learn_more_download::before{
+    content: "";
+    width: 7%;
+    height: 7%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top:0;
+    background: linear-gradient(45deg , #9d1709 0% , #9d1709 50% , white 50% , white 100% );
+    transition: all 0.5s;
+}
+
+.learn_more_download:hover::before{
+    width: 20%;
+    height: 20%;
+}
+
+
+
 .learn_more_download_button {
     display: inline-block;
     margin-top: 20%;
